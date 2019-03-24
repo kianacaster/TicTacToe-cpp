@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-char player = 'X'; /
+char player = 'X'; 
 char matrix[3][3] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' }; // The grid which the game is played on
 
 // Display the grid
