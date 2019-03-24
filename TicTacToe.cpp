@@ -93,8 +93,8 @@ int CheckWin()
 	else if (matrix[0][2] == 'O' && matrix[1][2] == 'O' && matrix[2][2] == 'O') return 2;
 	
 	// Diagonal
-	else if (matrix[0][0] == 'X' && matrix[1][1] == 'X' && matrix[2][2] == 'O') return 1;
-	else if (matrix[0][2] == 'X' && matrix[1][1] == 'X' && matrix[2][1] == 'O') return 1;
+	else if (matrix[0][0] == 'X' && matrix[1][1] == 'X' && matrix[2][2] == 'X') return 1;
+	else if (matrix[0][2] == 'X' && matrix[1][1] == 'X' && matrix[2][1] == 'X') return 1;
 	
 	else if (matrix[0][0] == 'O' && matrix[1][1] == 'O' && matrix[2][2] == 'O') return 2;
 	else if (matrix[0][2] == 'O' && matrix[1][1] == 'O' && matrix[2][1] == 'O') return 2;
